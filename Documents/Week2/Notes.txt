@@ -1,0 +1,12 @@
+15/06/16
+Flowcharts and block diagrams, prep for talk with Nick
+
+16/06/16
+--Study design patterns - Queued State Machine / Event Driven Producer-Consumer
+--Prep for architecture document
+
+17/06/16
+--Nick (LabVIEW specialist) meeting
+	-rework of architecture
+	-advice on aspects to look into FGV 
+	-block diagram revised (see block diagram 2) 20/06

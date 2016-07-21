@@ -1,0 +1,5 @@
+--LabVIEW core 1 + exercises complete
+
+--Initial circuits to test functionality of parts
+			--Pump circuit
+			--Valve circuit

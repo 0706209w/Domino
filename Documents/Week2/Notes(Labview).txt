@@ -1,0 +1,13 @@
+14/06/16
+-Pump & valve programs combined
+	-redesigned into "producer/consumer" design pattern
+	-Implemented Queues to replace local variables
+	-State machine model introduced
+	-Fill and Drain basic automated protocols added
+
+
+15/06/16
+-Pump+Valve(initial)
+	-added "manual mode"
+	-added custom task selection
+	-stop button now works!

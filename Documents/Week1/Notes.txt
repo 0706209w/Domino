@@ -1,0 +1,8 @@
+06/06/16
+--Induction/tour
+
+
+08/06/16-10/06/16
+--Project overview - Initial requirements session, Specifications document drafted.
+--Discussion of parts/software, needed/suitable (pumps etc, labview)
+--Familiarisation of hardware/software
