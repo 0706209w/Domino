@@ -13,12 +13,16 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("NF30 Pump"
+      (FullPartName "NF30 Pump.Normal")
+      (LibraryName "U:\TRUNK\DOMINO\ORCAD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     ("dTrans p30"
       (FullPartName "dTrans p30.Normal")
       (LibraryName "U:\TRUNK\DOMINO\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
@@ -65,7 +69,8 @@
       (Path "Design Resources" ".\small volume ink system.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library1.olb")
-      (Select "Design Resources" ".\small volume ink system.dsn" "Design Cache"))
+      (Select "Design Resources" ".\small volume ink system.dsn" "SCHEMATIC1"
+         "Valve Circuit"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -103,13 +108,12 @@
       (Schematic "SCHEMATIC1")
       (Page "Pressure Sensor"))
     (Doc
-      (Type "COrPartDoc")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1096 125 686")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2373 1061")
-        (Zoom "610"))
-      (Path "U:\Trunk\Domino\OrCAD\LIBRARY1.OLB")
-      (Package "dTrans p30"))))
+        (Placement "44 0 1 -1 -1 -8 -30 175 1407 175 736")
+        (Scroll "-63 0")
+        (Zoom "109")
+        (Occurrence "/"))
+      (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Pump Circuit"))))
