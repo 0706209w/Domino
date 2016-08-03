@@ -2,7 +2,9 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
     (NoModify)
     (File ".\small volume ink system.dsn"
       (Type "Schematic Design"))
@@ -11,8 +13,20 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("dTrans p30"
+      (FullPartName "dTrans p30.Normal")
+      (LibraryName "U:\TRUNK\DOMINO\ORCAD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BUZ71A
+      (FullPartName "BUZ71A.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -22,9 +36,13 @@
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (CD74HC86
+      (FullPartName "CD74HC86.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (BC237
+      (FullPartName "BC237.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0"))
     (LM358
       (FullPartName "LM358.Normal")
@@ -44,7 +62,10 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\small volume ink system.dsn")
       (Path "Design Resources" ".\small volume ink system.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\small volume ink system.dsn" "Design Cache"))
+      (Path "Design Resources" ".\small volume ink system.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Select "Design Resources" ".\small volume ink system.dsn" "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -54,20 +75,41 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1365 50 503")
-        (Scroll "-105 0")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1315 50 611")
+        (Scroll "-80 0")
         (Zoom "109")
         (Occurrence "/"))
-      (Path "U:\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
+      (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Heater Circuit"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1340 75 636")
+        (Scroll "-80 0")
+        (Zoom "109")
+        (Occurrence "/"))
+      (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Temperature Sensor"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1290 25 586")
+        (Placement "44 0 1 -1 -1 -8 -30 100 1365 100 661")
         (Scroll "-80 0")
         (Zoom "109")
         (Occurrence "/"))
-      (Path "U:\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
+      (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "Heater Circuit"))))
+      (Page "Pressure Sensor"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1096 125 686")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2373 1061")
+        (Zoom "610"))
+      (Path "U:\Trunk\Domino\OrCAD\LIBRARY1.OLB")
+      (Package "dTrans p30"))))
