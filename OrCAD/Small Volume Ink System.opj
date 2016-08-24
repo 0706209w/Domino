@@ -99,14 +99,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "u:\trunk\domino\orcad\small volume ink system.dsn")
-      (Path "Design Resources"
-         "u:\trunk\domino\orcad\small volume ink system.dsn" "SCHEMATIC1")
-      (Path "Design Resources"
-         "u:\trunk\domino\orcad\small volume ink system.dsn" "Design Cache")
+      (Path "Design Resources" ".\small volume ink system.dsn")
+      (Path "Design Resources" ".\small volume ink system.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\small volume ink system.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "u:\trunk\domino\orcad\library1.olb"))
+      (Path "Design Resources" "Library" ".\library1.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -126,8 +123,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1340 75 636")
-        (Scroll "-80 0")
+        (Placement "44 2 3 -1 -1 -8 -30 75 1340 75 636")
+        (Scroll "-225 -9")
         (Zoom "109")
         (Occurrence "/"))
       (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
@@ -147,7 +144,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 175 1407 175 736")
-        (Scroll "-63 0")
+        (Scroll "-63 23")
         (Zoom "109")
         (Occurrence "/"))
       (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
@@ -156,8 +153,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 225 1457 225 786")
-        (Scroll "-225 -9")
+        (Placement "44 0 1 -1 -1 -8 -30 225 1457 225 786")
+        (Scroll "-63 28")
         (Zoom "109")
         (Occurrence "/"))
       (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
@@ -167,7 +164,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 175 1440 175 736")
-        (Scroll "-80 0")
+        (Scroll "-80 23")
         (Zoom "109")
         (Occurrence "/"))
       (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
