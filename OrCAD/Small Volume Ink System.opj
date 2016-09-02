@@ -99,14 +99,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "u:\trunk\domino\orcad\small volume ink system.dsn")
-      (Path "Design Resources"
-         "u:\trunk\domino\orcad\small volume ink system.dsn" "SCHEMATIC1")
-      (Path "Design Resources"
-         "u:\trunk\domino\orcad\small volume ink system.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "u:\trunk\domino\orcad\library1.olb"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -117,7 +110,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1315 50 611")
-        (Scroll "-80 0")
+        (Scroll "-80 23")
         (Zoom "109")
         (Occurrence "/"))
       (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
@@ -137,7 +130,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1365 100 661")
-        (Scroll "-80 0")
+        (Scroll "-80 23")
         (Zoom "109")
         (Occurrence "/"))
       (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
@@ -147,7 +140,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 175 1407 175 736")
-        (Scroll "-63 0")
+        (Scroll "-63 23")
         (Zoom "109")
         (Occurrence "/"))
       (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
@@ -157,7 +150,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 225 1457 225 786")
-        (Scroll "-63 0")
+        (Scroll "-63 23")
         (Zoom "109")
         (Occurrence "/"))
       (Path "U:\TRUNK\DOMINO\ORCAD\SMALL VOLUME INK SYSTEM.DSN")
